@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kexi-common" />
+        <module name="kexi-user-service" />
+        <module name="kexi-sys-service" />
+        <module name="kexi-sys-api" />
+        <module name="kexi-sys-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kexi-security" target="1.8" />
+      <module name="kexi-security-service" target="1.8" />
+      <module name="kexi-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
